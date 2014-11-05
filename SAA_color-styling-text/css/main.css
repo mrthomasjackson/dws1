@@ -1,0 +1,63 @@
+h1 {
+    font-family: Georgia, Times, serif;
+}
+
+h2 {
+    font-family: "Gill Sans", Arial, sans-serif;
+}
+
+p {
+    font-family: Arial, Verdana, sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+link {
+    font-weight: normal;
+}
+
+#intro {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+h2 {
+    font-size: 90%;
+}
+
+h3 {
+    font-size: 150%;
+}
+
+#credit {
+    font-style: italic;
+}
+
+h1 {
+    text-shadow: 2px 2px #666666;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+p{
+    line-height: 1.4em;
+}
+
+#credit {
+    text-align: right;
+}
+
+link {
+    text-decoration: none;
+
+}
+link:hover {
+    text-decoration: underline;
+}
