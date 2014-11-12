@@ -1,0 +1,58 @@
+body {
+	font-size: 80%;
+	font-family: Arial, Verdana, sans-serif;
+	letter-spacing: 0.15em;	
+	background-color: #efefef;
+	}
+		
+#navigation {
+	list-style-type: none;
+	text-align: center;
+	}
+
+#content {
+	clear: both;
+	}
+	
+a {
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	}
+	
+a:hover, a#current-page {
+	color: #cc3333;
+	background-color: #ffffff;
+	}
+
+h1 {
+	font-size: 150%;
+}
+
+h2 {
+	font-size: 133%;
+}
+
+h3 {
+	font-size: 125%;
+}
+
+#logo {
+	float: left;
+	margin: 20px;
+}
+
+#column1of2 {
+	width: 280px;
+	float: left;
+	margin-right: 10px;
+}
+
+#column2of2 {
+	width: 280px;
+	float: left;
+}
+
+#contact {
+	clear: both;
+}
