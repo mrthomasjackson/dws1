@@ -1,0 +1,48 @@
+#gallery_content {
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+}
+
+.entry {
+    font-size: 70%;
+    width: 220px;
+    height: 220px;
+    float: left;
+    padding: 10px;
+    background-image: url('../images/shadow.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+
+figure {
+    width: 202px;
+    height: 193px;
+    margin: 0;
+    padding: 9px;
+    background-color: #e7e3d8;
+}
+
+figure img{
+    width: 200px;
+    height: 150px;
+    border: 1px;
+    border-style: solid;
+    border-color: #d6d6d6;
+
+}
+
+figcaption {
+    background-image: url('../images/icon.png');
+    background-repeat: no-repeat;
+    padding-top: 5px;
+    padding-left: 25px;
+}
+
+a.link {
+    padding: 0;
+}
