@@ -1,0 +1,184 @@
+/************MAIN BODY/ CONTAINER************/
+body {
+    background-image: url('../images/diamond-zag.png');
+    background-repeat: repeat;
+    background-position: top;
+    background-attachment: fixed;
+    overflow: auto;
+}
+
+#container {
+    background-color: #eeeeee;
+    opacity: .85;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px #2c271f;
+}
+/************PARAGRAPHS AND HEADINGS************/
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 150%;
+}
+
+.left {
+    float: left;
+
+}
+#intro {
+    width: 60%;
+    height: auto;
+    padding: .5%;
+    margin: 1%;
+    border: 2px dashed #ffffff;
+}
+
+
+#history {
+    width: 60%;
+    height: auto;
+    padding: .5%;
+    margin: 1%;
+    border: 2px dashed #0000FF;
+}
+
+#equipment {
+    width: 60%;
+    height: auto;
+    padding: .5%;
+    margin: 1%;
+    border: 2px dashed #ff0000;
+}
+
+#procedures {
+    width: 60%;
+    height: auto;
+    padding: .5%;
+    margin: 1%;
+    border: 2px dashed #fcff00;
+}
+
+#gallery {
+    width: auto;
+    height: auto;
+    padding-left: .5%;
+    padding-right: .5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: 2px dashed #00ff20;
+    background: linear-gradient(#FFFFFF, #008fb8);
+}
+
+#gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.right {
+    width: 34%;
+    height: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    float: right;
+    clear: left;
+}
+
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 2px 2px #434343;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-style: oblique;
+    text-align: left;
+
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: left;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: left;
+}
+
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    text-align: left;
+}
+
+/************LINKS************/
+a:link {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #0010ff;
+
+}
+
+a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #ff00da;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #ff00da;
+}
+
+
+a:active {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #ff00da;
+    background-color: #fffff9;
+}
+
+/************Lists************/
+ul {
+    list-style-type: none;
+}
+
+ol{
+    list-style-type: upper-alpha;
+}
+#nav li{
+     display: inline;
+     margin-left: 2%;
+
+
+ }
+
+#gallery li {
+    background-image: url("../images/1415919752_mask.png");
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding: 2.5%;
+}
+
