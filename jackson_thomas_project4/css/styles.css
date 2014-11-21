@@ -25,7 +25,7 @@ p {
     line-height: 150%;
 }
 
-.left {
+article {
     width: 57%;
     height: auto;
     padding-left: 1%;
@@ -35,7 +35,7 @@ p {
     float: left;
 }
 
-.right {
+aside {
     width: 34%;
     height: auto;
     padding-left: 1%;
@@ -46,7 +46,7 @@ p {
     clear: right
 }
 
-.footer {
+footer{
     float: left;
     clear: both;
 }
@@ -138,7 +138,7 @@ h6 {
     text-align: left;
 }
 
-/************LINKS************/
+/************LINKS/tables/forms************/
 a:link {
     text-decoration: none;
     font-weight: bold;
@@ -170,6 +170,77 @@ a:active {
     background-color: #fffff9;
 }
 
+#table{
+    width: 100%;
+    padding: 2%;
+}
+
+#table th {
+    font-size: x-large;
+
+}
+#table td {
+    text-align: center;
+    border: groove;
+    border-collapse: inherit;
+}
+
+#table tr {
+    font-size: large;
+}
+
+#table td:hover {
+    background-color: #0000FF;
+    color: azure;
+    letter-spacing: 2px;
+}
+
+form input{
+    padding: 1%;
+    margin: 1%;
+    font-size: .9em;
+    text-align: left;
+}
+label {
+    float: left;
+    text-align: right;
+    margin-right: 15px;
+    width: 100px;
+}
+
+* {
+    border: none;
+}
+
+form select {
+    padding: 1%;
+    margin: 1%;
+    font-size: .9em;
+
+}
+
+form button {
+    padding: 1%;
+    margin: 1%;
+    font-size: .9em;
+
+}
+
+form {
+    padding: 1%;
+    margin: 1%;
+    border: solid #000000;
+}
+
+textarea:focus, input:focus {
+    border: 2px solid #900;
+}
+
+textarea:hover, input:hover {
+    border: 2px solid #ff00da;
+}
+
+
 /************Lists************/
 ul {
     list-style-type: none;
@@ -178,9 +249,10 @@ ul {
 ol{
     list-style-type: upper-alpha;
 }
-#nav li{
+nav li{
      display: inline;
      margin-left: 2%;
+    align-content: center;
 
 
  }
